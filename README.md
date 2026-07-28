@@ -23,6 +23,7 @@ ghcr.io/cognivyn/<image-name>:<tag>
 | **`ghcr.io/cognivyn/base-runtime`** | [`base-runtime/`](./base-runtime) | Hardened Ubuntu 22.04 base with common security patches and utilities. | Private |
 | **`ghcr.io/cognivyn/base-node`** | [`base-node/`](./base-node) | Node.js (v20 LTS) runtime environment extending `base-runtime`. | Private |
 | **`ghcr.io/cognivyn/base-python`** | [`base-python/`](./base-python) | Python (v3.11) runtime environment extending `base-runtime`. | Private |
+| **`ghcr.io/cognivyn/base-bun`** | [`base-bun/`](./base-bun) | Bun runtime environment extending `base-runtime`. | Private |
 
 ---
 

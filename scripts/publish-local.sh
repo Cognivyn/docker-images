@@ -19,6 +19,7 @@ if [ "$TARGET" = "all" ]; then
     publish_image "base-runtime"
     publish_image "base-node"
     publish_image "base-python"
+    publish_image "base-bun"
 else
     publish_image "$TARGET"
 fi

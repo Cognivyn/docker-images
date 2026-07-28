@@ -30,6 +30,7 @@ if [ "$TARGET" = "all" ]; then
     build_image "base-runtime"
     build_image "base-node"
     build_image "base-python"
+    build_image "base-bun"
 else
     build_image "$TARGET"
 fi
