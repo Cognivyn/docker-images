@@ -24,6 +24,7 @@ ghcr.io/cognivyn/<image-name>:<tag>
 | **`ghcr.io/cognivyn/base-node`** | [`base-node/`](./base-node) | Node.js (v20 LTS) runtime environment extending `base-runtime`. | Private |
 | **`ghcr.io/cognivyn/base-python`** | [`base-python/`](./base-python) | Python (v3.11) runtime environment extending `base-runtime`. | Private |
 | **`ghcr.io/cognivyn/base-bun`** | [`base-bun/`](./base-bun) | Bun runtime environment extending `base-runtime`. | Private |
+| **`ghcr.io/cognivyn/base-php`** | [`base-php/`](./base-php) | PHP (v8.3) runtime environment extending `base-runtime`. | Private |
 
 ---
 
@@ -66,7 +67,7 @@ Use the helper scripts provided in `scripts/`:
 
 This repository contains automated GitHub Actions workflows:
 
-1. **`build-base-images.yml`**: Automatically builds and pushes `base-runtime`, `base-node`, and `base-python` when changes are merged into `main`.
+1. **`build-base-images.yml`**: Automatically builds and pushes `base-runtime`, `base-node`, `base-python`, `base-bun`, `base-php`, and `base-bun-infisical` when changes are merged into `main`.
 2. **`vulnerability-scan.yml`**: Weekly security vulnerability scanning using Trivy.
 3. **`prune-ghcr-packages.yml`**: Scheduled maintenance job to clean up untagged images.
 
