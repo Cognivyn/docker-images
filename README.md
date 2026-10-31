@@ -24,6 +24,7 @@ ghcr.io/cognivyn/<image-name>:<tag>
 | **`ghcr.io/cognivyn/base-node`** | [`base-node/`](./base-node) | Node.js (v20 LTS) runtime environment extending `base-runtime`. | Private |
 | **`ghcr.io/cognivyn/base-python`** | [`base-python/`](./base-python) | Python (v3.11) runtime environment extending `base-runtime`. | Private |
 | **`ghcr.io/cognivyn/base-bun`** | [`base-bun/`](./base-bun) | Bun runtime environment extending `base-runtime`. | Private |
+| **`ghcr.io/cognivyn/base-bun-infisical`** | [`base-bun-infisical/`](./base-bun-infisical) | Bun runtime with Infisical CLI extending `base-bun`. | Private |
 | **`ghcr.io/cognivyn/base-php`** | [`base-php/`](./base-php) | PHP (v8.3) runtime environment extending `base-runtime`. | Private |
 
 ---
