@@ -1,6 +1,6 @@
 # Cognivyn Docker Images
 
-[![GHCR](https://img.shields.io/badge/ghcr.io-cognivyn-2496ED?logo=github&logoColor=white)](https://github.com/orgs/Cognivyn/packages)
+[![GHCR](https://img.shields.io/badge/ghcr.io-cognivyn-2496ED?logo=github&logoColor=white)](https://github.com/orgs/Cognivyn/packages?repo_name=docker-images)
 [![Build Status](https://github.com/Cognivyn/docker-images/actions/workflows/build-base-images.yml/badge.svg)](https://github.com/Cognivyn/docker-images/actions/workflows/build-base-images.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![Security Scan](https://github.com/Cognivyn/docker-images/actions/workflows/vulnerability-scan.yml/badge.svg)](https://github.com/Cognivyn/docker-images/actions/workflows/vulnerability-scan.yml)
